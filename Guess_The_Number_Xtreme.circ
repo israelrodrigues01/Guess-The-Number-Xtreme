@@ -777,4 +777,59 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="A3"/>
     </comp>
   </circuit>
+  <circuit name="Coordenadas">
+    <a name="circuit" val="Coordenadas"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(600,200)" to="(600,210)"/>
+    <wire from="(440,310)" to="(440,450)"/>
+    <wire from="(460,310)" to="(460,450)"/>
+    <wire from="(440,210)" to="(440,220)"/>
+    <wire from="(460,210)" to="(460,220)"/>
+    <wire from="(290,200)" to="(290,210)"/>
+    <wire from="(290,210)" to="(290,230)"/>
+    <wire from="(400,430)" to="(400,450)"/>
+    <wire from="(490,430)" to="(490,450)"/>
+    <wire from="(450,250)" to="(450,280)"/>
+    <wire from="(600,210)" to="(600,230)"/>
+    <wire from="(400,450)" to="(440,450)"/>
+    <wire from="(400,300)" to="(430,300)"/>
+    <wire from="(400,240)" to="(430,240)"/>
+    <wire from="(460,450)" to="(490,450)"/>
+    <wire from="(290,210)" to="(440,210)"/>
+    <wire from="(460,210)" to="(600,210)"/>
+    <comp lib="4" loc="(620,310)" name="D Flip-Flop"/>
+    <comp lib="5" loc="(490,430)" name="Hex Digit Display"/>
+    <comp lib="5" loc="(400,430)" name="Hex Digit Display"/>
+    <comp lib="5" loc="(290,200)" name="Hex Digit Display"/>
+    <comp lib="2" loc="(450,250)" name="Multiplexer">
+      <a name="facing" val="south"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(290,230)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="2" loc="(450,280)" name="Multiplexer">
+      <a name="facing" val="north"/>
+      <a name="width" val="4"/>
+      <a name="disabled" val="0"/>
+    </comp>
+    <comp lib="0" loc="(400,240)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Próximo"/>
+    </comp>
+    <comp lib="0" loc="(400,300)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Próximo"/>
+    </comp>
+    <comp lib="5" loc="(600,200)" name="Hex Digit Display"/>
+    <comp lib="0" loc="(600,230)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+    </comp>
+  </circuit>
 </project>
