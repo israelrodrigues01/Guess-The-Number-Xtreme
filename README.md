@@ -1,5 +1,9 @@
 # Guess-The-Number-Xtreme
 
+<img src="assets/projeto.png" width="700">
+
+<img src="assets/projeto.gif" width="700">
+
 ## Sobre o Jogo 
 
 <p>O **Guess The Number Xtreme** é uma competição entre dois jogadores baseado em Circuitos Digitais, no qual o objetivo é adivinhar um ponto no espaço definido por coordenadas x e y. Cada coordenada é um número de 4 bits escolhido aleatoriamente. Os jogadores fazem palpites, indicando combinações de coordenadas, e o jogo fornece dicas com base nesses palpites com base na soma das coordenadas no espaço, para vencer o tempo dos dois jogadores tem que zerar, e o jogador com a maior pontuação vence, ou aquele que chegar a 15 pontos primeiro vencerá.</p>
