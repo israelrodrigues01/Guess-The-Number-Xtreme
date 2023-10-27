@@ -304,6 +304,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="north"/>
       <a name="label" val="MAIOR"/>
     </comp>
+    <comp lib="0" loc="(330,380)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="0" loc="(580,670)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="CHUTANDO X"/>
@@ -457,8 +460,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="5" loc="(950,420)" name="LED">
       <a name="facing" val="south"/>
-      <a name="color" val="#000000"/>
-      <a name="active" val="false"/>
+      <a name="color" val="#f5cc16"/>
     </comp>
     <comp lib="5" loc="(720,310)" name="Button">
       <a name="facing" val="south"/>
@@ -484,8 +486,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="5" loc="(330,420)" name="LED">
       <a name="facing" val="south"/>
-      <a name="color" val="#000000"/>
-      <a name="active" val="false"/>
+      <a name="color" val="#079af4"/>
     </comp>
     <comp lib="0" loc="(870,430)" name="Tunnel">
       <a name="facing" val="north"/>
@@ -627,8 +628,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="5" loc="(950,380)" name="LED">
       <a name="facing" val="north"/>
-      <a name="color" val="#000000"/>
-      <a name="active" val="false"/>
+      <a name="color" val="#f5cc16"/>
     </comp>
     <comp lib="0" loc="(1030,350)" name="Tunnel">
       <a name="facing" val="south"/>
@@ -737,6 +737,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="5" loc="(580,670)" name="LED">
       <a name="facing" val="south"/>
     </comp>
+    <comp lib="0" loc="(330,420)" name="Constant">
+      <a name="facing" val="north"/>
+    </comp>
     <comp lib="5" loc="(950,670)" name="LED">
       <a name="facing" val="south"/>
     </comp>
@@ -797,6 +800,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="west"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(950,380)" name="Constant">
+      <a name="facing" val="south"/>
     </comp>
     <comp lib="0" loc="(910,430)" name="Tunnel">
       <a name="facing" val="north"/>
@@ -868,6 +874,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="east"/>
       <a name="label" val="chutar"/>
     </comp>
+    <comp lib="0" loc="(950,420)" name="Constant">
+      <a name="facing" val="north"/>
+    </comp>
     <comp lib="0" loc="(1890,110)" name="Tunnel">
       <a name="width" val="4"/>
       <a name="label" val="PA"/>
@@ -911,7 +920,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="5" loc="(330,380)" name="LED">
       <a name="facing" val="north"/>
-      <a name="color" val="#000000"/>
+      <a name="color" val="#079af4"/>
     </comp>
     <comp lib="0" loc="(360,430)" name="Tunnel">
       <a name="facing" val="north"/>
